@@ -1,0 +1,93 @@
+/* SearchQuote.css */
+.search-bar {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid mediumslateblue;
+    width: 1000px;
+    margin-left: 340px;
+    margin-top: 10px;
+    padding-bottom: 10px; /* Add this line to create space between text and underline */
+  }
+  
+  
+  
+  /* Updated styles for the search bar container */
+.input-container {
+    display: flex;
+    align-items: auto;
+    width: 300px;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 10px;
+
+  }
+  
+  /* Styles for the search input */
+  .input-tag {
+    flex: 1; /* This makes the input take up all available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  /* Styles for the search button */
+  .search-button {
+    background-color: mediumslateblue;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    width: 150px;
+    height: 48px;
+    margin-top: 10px;
+  }
+  
+  .search-button:hover {
+    background-color: deepskyblue;
+  }
+  
+  
+  .quote-list {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  width: 600px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    display: contents;
+    color: dodgerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  li {
+    font-size: 16px;
+    padding: 10px;
+    color:dodgerblue;
+  }
+  
+ /* Add these styles for the search button */
+
+  
+  

@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: auto;
+    margin-top: 50px;
+    background: #625ac4;
+    width: 800px;
+    border-radius: 15px; 
+      
+}
+
+.container > h1 {
+    color:aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.quote{
+   padding: 60px 110px;
+   color: gold;
+   font-size: 30px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.line{
+    width: 700px;
+    height: 1.5px;
+    background: white;
+    margin: auto;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.author{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    color: gold;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icons img{
+    cursor: pointer;
+    height: 40px;
+
+}
